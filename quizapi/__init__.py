@@ -1,10 +1,19 @@
-from typing import Optional, Dict, Union, List
-from dataclasses import dataclass, InitVar
+from dataclasses import InitVar, dataclass
+from typing import Dict, List, Optional, Union
+
+from apiclient import APIClient, Get, endpoint
 from httpx import AsyncClient, Client
 
+"""
+A wrapper around quizapi (https://quizapi.io)
+written in python to support both blocking and async needs
+"""
 
-from apiclient import APIClient, endpoint, Get
-
+__author__ = "FalseDev"
+__title__ = "quizapi"
+__copyright__ = "Copyright FalseDev 2021"
+__version__ = "0.1.0"
+__license__ = "MIT"
 
 
 @dataclass
