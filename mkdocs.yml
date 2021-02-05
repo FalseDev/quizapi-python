@@ -1,0 +1,29 @@
+site_name: QuizAPI
+site_description: A wrapper around the QuizAPI
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: purple
+
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handler: python
+      watch:
+        - main.py
+
+nav:
+  - Introduction: index.md
+  - API Reference:
+    - Client Factory: factory.md
+    - QuizAPI class: quizapi.md
+    - Models: models.md
+
