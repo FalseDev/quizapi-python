@@ -1,1 +1,1 @@
-::: main.QuizAPI
+::: quizapi.QuizAPI

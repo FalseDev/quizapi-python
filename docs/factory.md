@@ -1,1 +1,1 @@
-::: main.create_quiz_api
+::: quizapi.create_quiz_api

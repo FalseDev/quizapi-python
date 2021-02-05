@@ -1,7 +1,7 @@
 ## `quizapi.QuizAPI`
 
-::: main.Question
+::: quizapi.Question
 
 ## `quizapi.Tag`
 
-::: main.Tag
+::: quizapi.Tag
